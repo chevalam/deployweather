@@ -49,7 +49,7 @@ var Weather = React.createClass({
 
     return (
       <div>
-        <h1>Get Weather</h1>
+        <h2>Get Weather</h2>
         <WeatherForm passCityName={this.getWeatherMessage}/>
         {rendermessage()}
       </div>

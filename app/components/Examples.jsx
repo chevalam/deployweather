@@ -9,6 +9,9 @@ var React = require('react');
 // });
 
 var Examples = (props) => {
-  return (<h1>Examples components</h1>)
+  return (<div>
+    <h3>Examples</h3>
+    <p>Welcome to the examples section!</p>
+  </div>)
 }
 module.exports = Examples;

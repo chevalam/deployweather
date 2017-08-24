@@ -8,6 +8,9 @@ var React = require('react');
 // });
 
 var About = (props) => {
-  return (<h1>About Component</h1>)
+  return (<div>
+          <h3>About</h3>
+          <p>The Author is a fly feeding on fleece and can be contacted on any job sites </p>
+          </div>)
 }
 module.exports = About;
