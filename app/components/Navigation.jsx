@@ -5,7 +5,7 @@ var {Link,IndexLink} = require('react-router');
 var Navigation = React.createClass({
   onSearch: function(e){
     e.preventDefault();
-    alert("Yet to wire stuff!! Folks at work");    
+    alert("Yet to wire stuff!! Folks at work");
   },
   render: function(){
     return (
@@ -28,7 +28,7 @@ var Navigation = React.createClass({
           <form onSubmit={this.onSearch}>
           <ul className="menu">
             <li>
-              <input type="text" placeholder="Enter city"></input>
+              <input type="search" placeholder="Enter city"></input>
             </li>
             <li>
               <input type="submit" className="button" value="Get Weather"></input>
